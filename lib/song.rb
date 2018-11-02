@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'artist.rb' 
 require_relative 'mp3_importer.rb' 
 
