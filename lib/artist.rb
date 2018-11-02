@@ -1,6 +1,5 @@
 require 'pry'
-require_relative 'song.rb'
-require_relative 'mp3_importer.rb'
+
 
 class Artist
   attr_accessor :name, :songs
