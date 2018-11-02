@@ -1,6 +1,6 @@
 require 'pry'
 require_relative 'artist.rb'
-require_relative 'mp3_importer.rb'
+require_relative 'song.rb'
 
 class MP3Importer
   attr_accessor :path
