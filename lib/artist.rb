@@ -40,12 +40,3 @@ class Artist
   end
 
 end
-
-
-
-
-#layla = Song.new("Layla")
-tom = Artist.new("Tom")
-tom.save
-Artist.find_or_create_by_name("Victoria")
-#tom.add_song(layla)
