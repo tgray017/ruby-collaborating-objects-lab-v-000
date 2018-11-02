@@ -17,6 +17,6 @@ class Song
 end
 
 
-file_name = "Old Crow Medicine Show - Wagon Wheel - folk.mp3"
+file_name = 'Michael Jackson - Black or White - pop.mp3'
 new_instance = Song.new_by_filename(file_name)
 # song.artist = artist
