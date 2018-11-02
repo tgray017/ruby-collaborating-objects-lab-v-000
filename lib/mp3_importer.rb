@@ -14,4 +14,5 @@ class MP3Importer
     files = self.files
     files.each {|file| Song.new_by_filename(file.split(".")[0])}
   end
+  
 end
