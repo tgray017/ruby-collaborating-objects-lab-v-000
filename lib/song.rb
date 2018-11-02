@@ -18,5 +18,5 @@ end
 
 
 file_name = "Old Crow Medicine Show - Wagon Wheel - folk.mp3"
-Song.new_by_filename(file_name)
+new_instance = Song.new_by_filename(file_name)
 # song.artist = artist
