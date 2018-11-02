@@ -1,5 +1,3 @@
-require 'pry'
-
 class MP3Importer
   attr_accessor :path
   
@@ -17,6 +15,3 @@ class MP3Importer
     files.each {|file| Song.new_by_filename(file.split(".")[0])}
   end
 end
-
-importer = MP3Importer.new('./spec/fixtures/mp3s')
-importer.files
